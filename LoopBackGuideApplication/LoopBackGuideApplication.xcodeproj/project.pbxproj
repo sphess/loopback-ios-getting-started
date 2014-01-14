@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BC5E6A21880994C0003BD94 /* LoopBack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC5E6A11880994C0003BD94 /* LoopBack.framework */; };
+		0BC92705187DE36500118247 /* LessonUserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BC92704187DE36500118247 /* LessonUserView.xib */; };
+		0BC92707187DE3C700118247 /* LessonUserView.h in Resources */ = {isa = PBXBuildFile; fileRef = 0BC92706187DE3C700118247 /* LessonUserView.h */; };
+		0BC92709187DE3DD00118247 /* LessonUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92708187DE3DD00118247 /* LessonUserView.m */; };
 		B359FE5617F3CD2C00DEE9E6 /* CoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B359FE5517F3CD2C00DEE9E6 /* CoverView.xib */; };
 		B359FE5817F3CE2800DEE9E6 /* SL_Logo_Reversed_Stacked_RGB.png in Resources */ = {isa = PBXBuildFile; fileRef = B359FE5717F3CE2800DEE9E6 /* SL_Logo_Reversed_Stacked_RGB.png */; };
 		B359FE5B17F3CFF700DEE9E6 /* LessonTwoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B359FE5A17F3CFF700DEE9E6 /* LessonTwoView.m */; };
@@ -15,7 +19,6 @@
 		B359FE6217F3D06200DEE9E6 /* LessonThreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B359FE6117F3D06200DEE9E6 /* LessonThreeView.m */; };
 		B359FE6417F3D45700DEE9E6 /* BackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B359FE6317F3D45700DEE9E6 /* BackView.xib */; };
 		B359FE9D17F3F9F900DEE9E6 /* LessonTwoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B359FE9C17F3F9F900DEE9E6 /* LessonTwoTableCell.xib */; };
-		B359FEAA17F4067400DEE9E6 /* LoopBack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B359FEA917F4067400DEE9E6 /* LoopBack.framework */; };
 		B359FEAC17F40B0C00DEE9E6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B359FEAB17F40B0C00DEE9E6 /* MapKit.framework */; };
 		B359FEAE17F410AC00DEE9E6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B359FEAD17F410AC00DEE9E6 /* CoreLocation.framework */; };
 		B37124DB17F3AD6300E18AED /* LessonOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = B37124DA17F3AD6300E18AED /* LessonOneView.m */; };
@@ -40,6 +43,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BC5E6A11880994C0003BD94 /* LoopBack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoopBack.framework; sourceTree = "<group>"; };
+		0BC92704187DE36500118247 /* LessonUserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LessonUserView.xib; sourceTree = "<group>"; };
+		0BC92706187DE3C700118247 /* LessonUserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonUserView.h; sourceTree = "<group>"; };
+		0BC92708187DE3DD00118247 /* LessonUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonUserView.m; sourceTree = "<group>"; };
 		B359FE5517F3CD2C00DEE9E6 /* CoverView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoverView.xib; sourceTree = "<group>"; };
 		B359FE5717F3CE2800DEE9E6 /* SL_Logo_Reversed_Stacked_RGB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SL_Logo_Reversed_Stacked_RGB.png; sourceTree = "<group>"; };
 		B359FE5917F3CFF700DEE9E6 /* LessonTwoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonTwoView.h; sourceTree = "<group>"; };
@@ -50,7 +57,6 @@
 		B359FE6117F3D06200DEE9E6 /* LessonThreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonThreeView.m; sourceTree = "<group>"; };
 		B359FE6317F3D45700DEE9E6 /* BackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackView.xib; sourceTree = "<group>"; };
 		B359FE9C17F3F9F900DEE9E6 /* LessonTwoTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LessonTwoTableCell.xib; sourceTree = "<group>"; };
-		B359FEA917F4067400DEE9E6 /* LoopBack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoopBack.framework; sourceTree = "<group>"; };
 		B359FEAB17F40B0C00DEE9E6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B359FEAD17F410AC00DEE9E6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		B37124D917F3AD6300E18AED /* LessonOneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonOneView.h; sourceTree = "<group>"; };
@@ -88,11 +94,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B359FEAE17F410AC00DEE9E6 /* CoreLocation.framework in Frameworks */,
+				0BC5E6A21880994C0003BD94 /* LoopBack.framework in Frameworks */,
 				B359FEAC17F40B0C00DEE9E6 /* MapKit.framework in Frameworks */,
 				B3FC64CD17F39CCE00D3C066 /* UIKit.framework in Frameworks */,
 				B3FC64CF17F39CCE00D3C066 /* Foundation.framework in Frameworks */,
 				B3FC64D117F39CCE00D3C066 /* CoreGraphics.framework in Frameworks */,
-				B359FEAA17F4067400DEE9E6 /* LoopBack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +144,9 @@
 		B3FC64CB17F39CCE00D3C066 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0BC5E6A11880994C0003BD94 /* LoopBack.framework */,
 				B359FEAD17F410AC00DEE9E6 /* CoreLocation.framework */,
 				B359FEAB17F40B0C00DEE9E6 /* MapKit.framework */,
-				B359FEA917F4067400DEE9E6 /* LoopBack.framework */,
 				B3FC64CC17F39CCE00D3C066 /* UIKit.framework */,
 				B3FC64CE17F39CCE00D3C066 /* Foundation.framework */,
 				B3FC64D017F39CCE00D3C066 /* CoreGraphics.framework */,
@@ -180,6 +186,9 @@
 				B37124D917F3AD6300E18AED /* LessonOneView.h */,
 				B37124DA17F3AD6300E18AED /* LessonOneView.m */,
 				B37124DC17F3AD6F00E18AED /* LessonOneView.xib */,
+				0BC92706187DE3C700118247 /* LessonUserView.h */,
+				0BC92708187DE3DD00118247 /* LessonUserView.m */,
+				0BC92704187DE36500118247 /* LessonUserView.xib */,
 				B359FE5917F3CFF700DEE9E6 /* LessonTwoView.h */,
 				B359FE5A17F3CFF700DEE9E6 /* LessonTwoView.m */,
 				B359FE5C17F3D00400DEE9E6 /* LessonTwoView.xib */,
@@ -256,7 +265,9 @@
 				B37124E417F3B05700E18AED /* Settings.plist in Resources */,
 				B359FE5617F3CD2C00DEE9E6 /* CoverView.xib in Resources */,
 				B359FE5817F3CE2800DEE9E6 /* SL_Logo_Reversed_Stacked_RGB.png in Resources */,
+				0BC92707187DE3C700118247 /* LessonUserView.h in Resources */,
 				B359FE5D17F3D00400DEE9E6 /* LessonTwoView.xib in Resources */,
+				0BC92705187DE36500118247 /* LessonUserView.xib in Resources */,
 				B359FE5F17F3D04E00DEE9E6 /* LessonThreeView.xib in Resources */,
 				B359FE6417F3D45700DEE9E6 /* BackView.xib in Resources */,
 				B359FE9D17F3F9F900DEE9E6 /* LessonTwoTableCell.xib in Resources */,
@@ -276,6 +287,7 @@
 				B3FC64E917F39CCE00D3C066 /* DataViewController.m in Sources */,
 				B3FC64EC17F39CCE00D3C066 /* ModelController.m in Sources */,
 				B37124DB17F3AD6300E18AED /* LessonOneView.m in Sources */,
+				0BC92709187DE3DD00118247 /* LessonUserView.m in Sources */,
 				B359FE5B17F3CFF700DEE9E6 /* LessonTwoView.m in Sources */,
 				B359FE6217F3D06200DEE9E6 /* LessonThreeView.m in Sources */,
 			);
@@ -374,7 +386,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"/Projects/StrongLoop/loopback-ios-getting-started/LoopBackGuideApplication",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoopBackGuideApplication/LoopBackGuideApplication-Prefix.pch";
@@ -389,7 +402,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"/Projects/StrongLoop/loopback-ios-getting-started/LoopBackGuideApplication",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoopBackGuideApplication/LoopBackGuideApplication-Prefix.pch";
