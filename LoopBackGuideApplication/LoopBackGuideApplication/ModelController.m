@@ -34,10 +34,10 @@
             [DataViewData dataWithTitle:@"" path:@"CoverView"],
             
             [DataViewData dataWithTitle:@"Introduction" path:@"IntroductionView"],
+            [DataViewData dataWithTitle:@"Lesson Users: Become Somebody" path:@"LessonUserView"],
             [DataViewData dataWithTitle:@"Lesson One: One Model, Hold the Schema" path:@"LessonOneView"],
             [DataViewData dataWithTitle:@"Lesson Two: Existing Data? No Problem." path:@"LessonTwoView"],
             [DataViewData dataWithTitle:@"Lesson Three: Don't Outgrow, Outbuild." path:@"LessonThreeView"],
-            [DataViewData dataWithTitle:@"Lesson Four: Users" path:@"LessonUserView"],
             [DataViewData dataWithTitle:@"Finale: Congratulations!" path:@"FinaleView"],
             [DataViewData dataWithTitle:@"" path:@"BackView"]
         ];

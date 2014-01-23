@@ -63,8 +63,7 @@ typedef enum _UserMode
     if (_modeSC.selectedSegmentIndex == UM_CREATE) {
         // 1. Create a new user given the email and password from the UI.
         LBUser *user = [self.repository createUserWithEmail:_emailTF.text
-                                                   password:_passwordTF.text
-                                                 dictionary:@{}];
+                                                   password:_passwordTF.text];
         
         // 2. Save!
         [user saveWithSuccess:^{
@@ -102,34 +101,24 @@ typedef enum _UserMode
         }];
     }
     else {
-        //Attempt to log out if currently logged in
-        if (self.loggedInUser == nil) {
-            _statusTV.text = @"";
-            [[[UIAlertView alloc] initWithTitle:@"Not currently logged in"
+        //Attempt to log out
+        [self.repository logoutWithSuccess:^{
+            self.loggedInUser = nil;
+            _statusTV.text = [NSString stringWithFormat:@"Logged out!"];
+            [[[UIAlertView alloc] initWithTitle:@"Logged Out!"
                                         message:nil
                                        delegate:nil
                               cancelButtonTitle:@"Dismiss"
                               otherButtonTitles:nil] show];
-        }
-        else {
-            [self.loggedInUser logoutWithSuccess:^{
-                self.loggedInUser = nil;
-                _statusTV.text = [NSString stringWithFormat:@"Logged out!"];
-                [[[UIAlertView alloc] initWithTitle:@"Logged Out!"
-                                            message:nil
-                                           delegate:nil
-                                  cancelButtonTitle:@"Dismiss"
-                                  otherButtonTitles:nil] show];
-            }failure:^(NSError *error) {
-                NSLog(@"Failed to log out %@", error);
-                _statusTV.text = [NSString stringWithFormat:@"Failed to log out with error: %@", [error localizedRecoverySuggestion]];
-                [[[UIAlertView alloc] initWithTitle:@"Error"
-                                            message:[error localizedDescription]
-                                           delegate:nil
-                                  cancelButtonTitle:@"Dismiss"
-                                  otherButtonTitles:nil] show];
-            }];
-        }
+        }failure:^(NSError *error) {
+            NSLog(@"Failed to log out %@", error);
+            _statusTV.text = [NSString stringWithFormat:@"Failed to log out with error: %@", [error localizedRecoverySuggestion]];
+            [[[UIAlertView alloc] initWithTitle:@"Error"
+                                        message:[error localizedDescription]
+                                       delegate:nil
+                              cancelButtonTitle:@"Dismiss"
+                              otherButtonTitles:nil] show];
+        }];
     }
 }
 

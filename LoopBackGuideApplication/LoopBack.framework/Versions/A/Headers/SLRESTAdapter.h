@@ -24,4 +24,7 @@
 /** A custom contract for fine-grained route configuration. */
 @property (readwrite, nonatomic, strong) SLRESTContract *contract;
 
+/** Set the given access token in the header for all RESTful interaction. */
+@property (nonatomic) NSString* accessToken;
+
 @end
